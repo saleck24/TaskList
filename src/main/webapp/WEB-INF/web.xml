@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" version="6.0">
+  <servlet>
+    <description></description>
+    <display-name>Serv_user</display-name>
+    <servlet-name>Serv_user</servlet-name>
+    <servlet-class>métier.Serv_user</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Serv_user</servlet-name>
+    <url-pattern>/Serv_user</url-pattern>
+  </servlet-mapping>
+  <display-name>Mini_projet</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Serv_task</display-name>
+    <servlet-name>Serv_task</servlet-name>
+    <servlet-class>métier.Serv_task</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Serv_task</servlet-name>
+    <url-pattern>/Serv_task</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Serv_admin</display-name>
+    <servlet-name>Serv_admin</servlet-name>
+    <servlet-class>métier.Serv_admin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Serv_admin</servlet-name>
+    <url-pattern>/Serv_admin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Accueil</display-name>
+    <servlet-name>Accueil</servlet-name>
+    <servlet-class>métier.Accueil</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Accueil</servlet-name>
+    <url-pattern>/Accueil</url-pattern>
+  </servlet-mapping>
+</web-app>
